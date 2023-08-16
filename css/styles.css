@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.main {
+    background-color: #2E2F42;
+}
+
+a {
+    text-decoration: none;
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.logo {
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+ 
+span {
+    color: #4D5AE5;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-weight: 700; 
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+}
+
+button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+h2 {
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+}
+
+h3 {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.maintext {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.team h3 {
+    text-align: center;
+    }
+
+.team p {
+    text-align: center;
+}
+
+footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
