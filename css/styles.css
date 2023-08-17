@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', 'Raleway' sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -8,8 +8,17 @@ ul {
     list-style-type: none;
 }
 
-.main {
-    background-color: #2E2F42;
+.main-section {
+     background-color: #2E2F42;
+}
+
+.main-title {
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
 }
 
 a {
@@ -18,69 +27,83 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    color: #2E2F42;
+    color: #4d5ae5;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.166;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
  
 span {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
 .link:hover, .link:focus {
     color:#404BBF;
 }
 
-h1 {
-    color: #FFFFFF;
-    font-weight: 700; 
-    font-size: 56px;
-    line-height: 1.071;
-    text-align: center;
+.address {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address:hover,
+.address:focus {
+    color: #404BBF;
 }
 
 .button {
+    font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
     color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
  .button:hover, .button:focus {
     background-color: #404BBF;
     color: #FFFFFF;
  }
-h2 {
+.title-two {
     color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.111;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 
-h3 {
+.title-three {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    text-align: left;
+    letter-spacing: 0.02em;
 }
+
+.main {
+    background-color: #F4F4FD;
+}
+
 
 .maintext {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-}
-
-.maintext:hover, .maintext:focus {
-    color:#404BBF;
+    letter-spacing: 0.02em;
 }
 
 .team h3 {
@@ -91,9 +114,16 @@ h3 {
     text-align: center;
 }
 
-footer .logo, footer .maintext {
-    
-    color: #F4F4FD;
+portfolio {
+    background-color: #F4F4FD;
+}
+
+footer .logo {
+    color:#4d5ae5;
+}
+
+footer .maintext, footer span {
+        color: #F4F4FD;
 }
 
 footer {
