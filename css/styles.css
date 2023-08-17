@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Raleway' sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -17,14 +17,15 @@ a {
     color: #2E2F42;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
 }
 
 .logo {
+    font-family: 'Raleway', sans-serif;
     color: #2E2F42;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.166;
     text-transform: uppercase;
 }
  
@@ -32,28 +33,35 @@ span {
     color: #4D5AE5;
 }
 
+.link:hover, .link:focus {
+    color:#404BBF;
+}
+
 h1 {
     color: #FFFFFF;
     font-weight: 700; 
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.071;
     text-align: center;
 }
 
-button {
+.button {
     background-color: #4D5AE5;
     color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-
+    line-height: 1.5;
+    cursor: pointer;
 }
-
+ .button:hover, .button:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+ }
 h2 {
     color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.111;
     text-align: center;
 }
 
@@ -61,14 +69,18 @@ h3 {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     text-align: left;
 }
 
 .maintext {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+}
+
+.maintext:hover, .maintext:focus {
+    color:#404BBF;
 }
 
 .team h3 {
@@ -79,7 +91,11 @@ h3 {
     text-align: center;
 }
 
+footer .logo, footer .maintext {
+    
+    color: #F4F4FD;
+}
+
 footer {
     background-color: #2E2F42;
-    color: #F4F4FD;
 }
