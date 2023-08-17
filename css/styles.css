@@ -40,7 +40,7 @@ a {
     text-transform: uppercase;
 }
  
-span {
+.span-studio {
     color: #2e2f42;
 }
 
@@ -48,11 +48,14 @@ span {
     color:#404BBF;
 }
 
+.address-list {
+    font-style: normal;
+}
+
 .address {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    font-style: normal;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -88,6 +91,7 @@ span {
 
 .title-three {
     color: #2E2F42;
+    background-color: #FFFFFF;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -122,7 +126,7 @@ footer .logo {
     color:#4d5ae5;
 }
 
-footer .maintext, footer span {
+footer .maintext, footer .span-studio {
         color: #F4F4FD;
 }
 
