@@ -117,16 +117,16 @@ a {
 .team p {
     text-align: center;
 }
-team {
+.team {
 background-color: #F4F4FD;
 
-team-item {
+.team-item {
     background-color: #FFFFFF;
 }
 
 }
 
-portfolio {
+.portfolio {
     background-color: #F4F4FD;
 }
 
@@ -138,6 +138,6 @@ footer .maintext, footer .span-studio {
         color: #F4F4FD;
 }
 
-footer {
+.footer {
     background-color: #2E2F42;
 }
